@@ -1,4 +1,4 @@
-apiVersion : apps/v1
+apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: complete-prodcution-e2e-deployment
@@ -19,5 +19,5 @@ spec:
             limits:
               memory: "256Mi"
               cpu: "500m"
-        ports:
-          - containerPort: 8080
+          ports:
+            - containerPort: 8080
