@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: complete-prodcution-e2e-app
-          image: ozairg/complete-prodcution-e2e-pipeline:1.0.0-12
+          image: ozairg/complete-prodcution-e2e-pipeline:1.0.0-14
           resources:
             limits:
               memory: "256Mi"
